@@ -6,7 +6,8 @@ int main()
     printf("array element using pointer:\n");
     for (int i=0; i<5; i++)
     {
-        printf("%d",*(ptr +i));
+        printf("%d\n",*(ptr +i));
     }
     return 0;
+
 }
